@@ -1,0 +1,87 @@
+body{
+    margin-top: -20px;
+    
+}
+
+.cabecalho h2{
+    background-color: #4c5e2f;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.menu a, .coluna a{
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+#menu_itens{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+    height: 30px;
+    align-items: center;
+    margin-top: -22px;
+    background-color: #293f06;
+}
+
+
+.coluna{
+    border: 2px solid black;
+    width: 155px;
+    height: 3000px;
+    background-color: #536e26;
+    margin-top: -80px;
+    position: absolute;
+    text-align: center;
+}
+
+#coluna_itens{
+    text-align: center;
+    list-style: none;
+    margin-left: -px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    position: absolute;
+}
+
+#coluna_itens li{
+    padding: 12px;
+}
+
+.produtos{
+    width: 5500px;
+    height: 3000px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 155px;
+    margin-top: -280px;
+}
+
+#produtos_itens li{
+    color: black;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+@media(max-width:751px){
+    .menu{
+        width: 100px;
+    }
+    .cabecalho{
+        width: 100px;
+    }
+}
